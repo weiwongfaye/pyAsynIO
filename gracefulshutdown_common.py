@@ -24,4 +24,5 @@ def handler(sig):
     loop.add_signal_handler(SIGINT, lambda: None)
 
 if __name__ == '__main__':
-    asyncio.run(main()) // more common use than method in gracefulshutdown_adv
+    asyncio.run(main()) # more common use than method in gracefulshutdown_hardway.py
+    
